@@ -534,7 +534,7 @@ export async function registerRoutes(
     try {
       const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query + ", Bangalore, India")}&format=json&limit=1&addressdetails=1`;
       const resp = await fetch(url, {
-        headers: { "User-Agent": "SmartAI-Metro-Bangalore/1.0" },
+        headers: { "User-Agent": "METRO-MIND-Bangalore/1.0" },
       });
       const results = await resp.json() as any[];
       if (results.length > 0) {

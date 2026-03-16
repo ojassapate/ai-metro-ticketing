@@ -4,7 +4,7 @@ const genAI = new GoogleGenerativeAI(process.env.GOOGLE_GEMINI_API_KEY || "");
 
 export const assistantModel = genAI.getGenerativeModel({ 
   model: "gemini-flash-latest",
-  systemInstruction: `You are the SmartAI Metro Assistant for Bangalore Namma Metro. 
+  systemInstruction: `You are the METRO MIND Assistant for Bangalore Namma Metro. 
   Your goal is to help users with route planning, timings, fares, and crowd levels.
   
   CRITICAL RULES:

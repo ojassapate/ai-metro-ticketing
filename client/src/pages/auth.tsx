@@ -67,7 +67,7 @@ export default function AuthPage() {
     },
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["/api/auth/me"] });
-      toast({ title: "Account Created!", description: "Welcome to SmartAI Metro. You've received 500 bonus credits!" });
+      toast({ title: "Account Created!", description: "Welcome to METRO MIND. You've received 500 bonus credits!" });
     },
     onError: (error: Error) => {
       toast({ title: "Registration Failed", description: error.message, variant: "destructive" });
@@ -149,7 +149,7 @@ export default function AuthPage() {
                 <TrainFrontIcon className="w-5 h-5 text-white" />
               </div>
               <div>
-                <h2 className="text-xl font-bold tracking-tight text-white">SmartAI Metro</h2>
+                <h2 className="text-xl font-bold tracking-tight text-white">METRO MIND</h2>
                 <p className="text-xs text-white/60">Bangalore Metro Rail Corporation</p>
               </div>
             </div>
@@ -211,7 +211,7 @@ export default function AuthPage() {
                 <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-primary mb-4 shadow-lg shadow-primary/20">
                   <TrainFrontIcon className="w-7 h-7 text-primary-foreground" />
                 </div>
-                <h1 className="text-xl font-bold tracking-tight" data-testid="text-auth-title-mobile">SmartAI Metro</h1>
+                <h1 className="text-xl font-bold tracking-tight" data-testid="text-auth-title-mobile">METRO MIND</h1>
                 <p className="text-xs text-muted-foreground mt-1">Bangalore Metro Rail Corporation</p>
               </div>
 
@@ -395,7 +395,7 @@ export default function AuthPage() {
 
               <div className="mt-6 text-center">
                 <p className="text-sm text-muted-foreground">
-                  {isLogin ? "New to SmartAI Metro?" : "Already have an account?"}{" "}
+                  {isLogin ? "New to METRO MIND?" : "Already have an account?"}{" "}
                   <button
                     type="button"
                     className="font-semibold text-primary cursor-pointer"
@@ -417,7 +417,7 @@ export default function AuthPage() {
               )}
 
               <p className="mt-8 text-center text-[10px] text-muted-foreground/60">
-                BMRCL SmartAI Metro Ticketing System
+                BMRCL METRO MIND Ticketing System
               </p>
             </div>
           </div>

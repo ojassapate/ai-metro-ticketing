@@ -163,7 +163,7 @@ export default function ScannerPage() {
               scanMutation.mutate(payload.ticketId);
             } else {
               playErrorSound();
-              setLastResult({ valid: false, fraudDetected: false, message: "Not a SmartAI Metro ticket QR code." });
+              setLastResult({ valid: false, fraudDetected: false, message: "Not a METRO MIND ticket QR code." });
             }
           } catch {
             playErrorSound();

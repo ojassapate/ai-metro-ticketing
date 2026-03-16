@@ -51,7 +51,7 @@ const translations: Record<string, Record<Language, string>> = {
   "label.destination": { en: "Destination", kn: "ಗಮ್ಯಸ್ಥಾನ", hi: "गंतव्य" },
   "label.language": { en: "Language", kn: "ಭಾಷೆ", hi: "भाषा" },
 
-  "app.title": { en: "SmartAI Metro", kn: "ಸ್ಮಾರ್ಟ್ AI ಮೆಟ್ರೋ", hi: "स्मार्ट AI मेट्रो" },
+  "app.title": { en: "METRO MIND", kn: "ಮೆಟ್ರೋ ಮೈಂಡ್", hi: "मेट्रो माइंड" },
   "app.subtitle": { en: "BMRCL Ticketing", kn: "BMRCL ಟಿಕೆಟಿಂಗ್", hi: "BMRCL टिकटिंग" },
   "app.poweredBy": { en: "AI-powered dynamic pricing for Bangalore Metro", kn: "ಬೆಂಗಳೂರು ಮೆಟ್ರೋಗಾಗಿ AI-ಚಾಲಿತ ಡೈನಾಮಿಕ್ ಬೆಲೆ", hi: "बेंगलुरु मेट्रो के लिए AI-संचालित गतिशील मूल्य निर्धारण" },
   "app.aiPricing": { en: "AI Dynamic Pricing", kn: "AI ಡೈನಾಮಿಕ್ ಬೆಲೆ", hi: "AI गतिशील मूल्य निर्धारण" },
@@ -74,7 +74,7 @@ const translations: Record<string, Record<Language, string>> = {
 
   "ticket.booked": { en: "Ticket Booked!", kn: "ಟಿಕೆಟ್ ಬುಕ್ ಆಗಿದೆ!", hi: "टिकट बुक हो गया!" },
   "ticket.showQR": { en: "Show this QR code at the metro gate", kn: "ಮೆಟ್ರೋ ಗೇಟ್‌ನಲ್ಲಿ ಈ QR ಕೋಡ್ ತೋರಿಸಿ", hi: "मेट्रो गेट पर यह QR कोड दिखाएं" },
-  "ticket.smartAIMetro": { en: "SmartAI Metro", kn: "ಸ್ಮಾರ್ಟ್ AI ಮೆಟ್ರೋ", hi: "स्मार्ट AI मेट्रो" },
+  "ticket.smartAIMetro": { en: "METRO MIND", kn: "ಮೆಟ್ರೋ ಮೈಂಡ್", hi: "मेट्रो माइंड" },
   "ticket.id": { en: "Ticket ID", kn: "ಟಿಕೆಟ್ ಐಡಿ", hi: "टिकट आईडी" },
   "ticket.scanQR": { en: "Scan QR at Metro Gate", kn: "ಮೆಟ್ರೋ ಗೇಟ್‌ನಲ್ಲಿ QR ಸ್ಕ್ಯಾನ್ ಮಾಡಿ", hi: "मेट्रो गेट पर QR स्कैन करें" },
   "ticket.bookAnother": { en: "Book Another", kn: "ಮತ್ತೊಂದು ಬುಕ್ ಮಾಡಿ", hi: "एक और बुक करें" },

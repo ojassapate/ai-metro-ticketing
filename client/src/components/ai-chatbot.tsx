@@ -192,7 +192,7 @@ export function AIChatbot() {
   const [messages, setMessages] = useState<ChatMessage[]>([
     {
       role: "assistant",
-      content: "Hello! I'm your SmartAI Metro Assistant. I can help you find routes, check timings, or book tickets. Type a message below to get started!",
+      content: "Hello! I'm your METRO MIND Assistant. I can help you find routes, check timings, or book tickets. Type a message below to get started!",
       suggestions: INITIAL_SUGGESTIONS,
     },
   ]);
@@ -445,7 +445,7 @@ export function AIChatbot() {
               </div>
               <div>
                 <p className="text-sm font-bold leading-tight text-black">
-                  SmartAI Assistant
+                  METRO MIND Assistant
                 </p>
                 <div className="flex items-center gap-1 mt-0.5 text-black/70">
                   <span className="w-1.5 h-1.5 rounded-full bg-green-500" />

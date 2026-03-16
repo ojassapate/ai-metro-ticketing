@@ -10,8 +10,8 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["favicon.ico", "apple-touch-icon.png", "mask-icon.svg"],
       manifest: {
-        name: "SmartAI Metro Bangalore",
-        short_name: "SmartAI Metro",
+        name: "METRO MIND Bangalore",
+        short_name: "METRO MIND",
         description: "Modern Bangalore Metro Ticketing System with AI Insights",
         theme_color: "#7B2D8E",
         icons: [

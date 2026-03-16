@@ -1,4 +1,4 @@
-# SmartAI Metro - Bangalore Metro Ticketing System
+# METRO MIND - Bangalore Metro Ticketing System
 
 A modern, full-stack, AI-powered web and mobile application for the Bangalore Namma Metro system. It provides a seamless interface for passengers to book tickets, plan multi-modal routes, analyze real-time crowd data, and get AI-assisted travel insights. Features an admin dashboard for operations monitoring and a comprehensive QR code validation system.
 
